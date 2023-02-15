@@ -1,0 +1,58 @@
+arm:
+  tool:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  acceleration: 10
+  feedrate: 50
+  PTPspeed: 100
+realsense:
+  move2suckerX: -1.5
+  move2suckerY: 78.75
+  move2suckerZ: 112
+  move2suckerXFoam: -6.5
+  move2suckerYFoam: 76.75
+  move2suckerZFoam: 184
+Scissors:
+  handle:
+    purple:
+      h_high: 180
+      s_high: 255
+      v_high: 255
+      h_low: 118
+      s_low: 0
+      v_low: 0
+    black:
+      h_high: 112
+      s_high: 168
+      v_high: 90
+      h_low: 87
+      s_low: 24
+      v_low: 0
+    blue:
+      h_high: 123
+      s_high: 255
+      v_high: 152
+      h_low: 103
+      s_low: 129
+      v_low: 0
+    contourArea_high: 20295
+    contourArea_low: 6250
+  blade:
+    h_high: 141
+    s_high: 92
+    v_high: 255
+    h_low: 26
+    s_low: 0
+    v_low: 6
+    contourArea_high: 4151
+    contourArea_low: 1563
+  morphologyEx:
+    kernel_size: 1
+    kernel_type: 0
+  suckOffset: 0.58
+Hole:
+  threshold: 134
